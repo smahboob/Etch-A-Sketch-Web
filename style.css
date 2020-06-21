@@ -1,0 +1,66 @@
+
+body{
+    background-color: cadetblue;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: x-large;
+    font-family: "Comic Sans MS";
+}
+
+
+#container {
+    margin-left:auto;
+    margin-right: auto;
+    display: grid;
+    grid-gap: 0em;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    max-width: 600px;
+    height: 600px;
+    overflow: hidden;
+    border: solid black;
+    background-color: aliceblue;
+    box-shadow: 5px 10px #4a1a4f;
+    cursor: pointer;
+    border-radius: 15px;
+}
+  
+  .grid-item {
+    padding: 0%;
+    text-align: center;
+    resize: both;
+  }
+
+
+
+.btn-div{
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    font-size: large;
+    background-color: brown;
+    color: white;
+    border: 2px solid rgb(57, 55, 55);
+    border-radius: 10px;
+    width: 180px;
+    height: 34px;
+    box-shadow: 2px 2px #4a1a4f;
+    margin-right: 15px;
+    margin-left: 17px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline-width: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
